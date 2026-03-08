@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'JetBrains Mono', monospace;
+    background-color: rgb(231, 234, 255);
 }
 
 nav {
@@ -39,4 +40,30 @@ ul {
     background-color: #000;
     color: #fff;
     border-radius: 1rem;
+}
+
+.base-parent-main {
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.mid-parent-main {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-main-text {
+    text-align: center;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.hero-text {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
 }
